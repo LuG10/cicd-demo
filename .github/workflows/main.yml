@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: LuG10/holamundo
+          tags: lg10/holamundo
       
