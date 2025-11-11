@@ -15,3 +15,10 @@ jobs:
 
       - name: Probar codigo
         run: python3 main.py
+      
+      - name: Create imagen Docker
+        run: docker built -t LuG10/holamundo .
+
+      - name: Probar contenedor Docker
+        run: docker run LuG10/holamundo
+      
